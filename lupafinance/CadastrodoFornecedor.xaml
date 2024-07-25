@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="lupafinance.CadastrodoFornecedor"
+             BackgroundColor="#d0cde1">
+
+    <ScrollView>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Padding="20">
+
+            <!-- Logo and Title -->
+            <Image Source="logo.png" HorizontalOptions="Center" />
+            <Label Text="CADASTRO DO FORNECEDOR" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" />
+
+            <!-- Input Fields -->
+            <Entry Placeholder="Nome/ Empresa" />
+            <Entry Placeholder="CNPJ" />
+            <Entry Placeholder="Departamento" />
+            <Entry Placeholder="Endereço" />
+            <Entry Placeholder="CPF" />
+            <Entry Placeholder="CEP" />
+            <Entry Placeholder="Telefone" />
+            <Entry Placeholder="AID" />
+
+            <!-- Buttons -->
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="20" Margin="20,0,0,0">
+                <Button Text="Voltar à tela inicial" TextColor="Black" BackgroundColor="White" />
+                <Button Text="Cadastrar dados" TextColor="White" BackgroundColor="Black" />
+            </StackLayout>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
+
