@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kDElf049NZZ3CeVQCLpBC0xUEGJEZNfDuxN5I9PvJqvqxBP2+VvtYTraq9tRPhOUiwDmXiifQAsVMpj3+uZ2Pg==",
+  "dgSpecHash": "UBIJHCWlHLwpGxskLnMHVgA0750U8MrWEGskkAa4MPV/NYvQKrfaQaSIeWzHlT2GgYU4QCyCPXVyKTSy4PJZoQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aluno\\Desktop\\financeiro-main\\lupafinance.csproj",
+  "projectFilePath": "C:\\Users\\Aluno\\financeiro-1\\financeiro-main\\lupafinance.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aluno\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0-rc.1.23419.4\\microsoft.extensions.configuration.8.0.0-rc.1.23419.4.nupkg.sha512",
