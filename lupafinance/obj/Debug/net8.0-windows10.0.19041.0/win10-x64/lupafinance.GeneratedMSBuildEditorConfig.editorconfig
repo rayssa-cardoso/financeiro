@@ -8,47 +8,53 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = lupafinance
-build_property.ProjectDir = C:\Users\Aluno\Desktop\financeiro-main\lupafinance\
+build_property.ProjectDir = C:\Users\Aluno\financeiro\lupafinance\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/Aluno/Desktop/financeiro-main/lupafinance/App.xaml]
+[C:/Users/Aluno/financeiro/lupafinance/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = lupafinance.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Aluno/Desktop/financeiro-main/lupafinance/AppShell.xaml]
+[C:/Users/Aluno/financeiro/lupafinance/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = lupafinance.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Aluno/Desktop/financeiro-main/lupafinance/CadastroCliente.xaml]
+[C:/Users/Aluno/financeiro/lupafinance/CadastroCliente.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = lupafinance.CadastroCliente.xaml
 build_metadata.AdditionalFiles.TargetPath = CadastroCliente.xaml
 build_metadata.AdditionalFiles.RelativePath = CadastroCliente.xaml
 
-[C:/Users/Aluno/Desktop/financeiro-main/lupafinance/CadastrodoFornecedor.xaml]
+[C:/Users/Aluno/financeiro/lupafinance/CadastrodoFornecedor.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = lupafinance.CadastrodoFornecedor.xaml
 build_metadata.AdditionalFiles.TargetPath = CadastrodoFornecedor.xaml
 build_metadata.AdditionalFiles.RelativePath = CadastrodoFornecedor.xaml
 
-[C:/Users/Aluno/Desktop/financeiro-main/lupafinance/MainPage.xaml]
+[C:/Users/Aluno/financeiro/lupafinance/Editarfornecedor.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = lupafinance.Editarfornecedor.xaml
+build_metadata.AdditionalFiles.TargetPath = Editarfornecedor.xaml
+build_metadata.AdditionalFiles.RelativePath = Editarfornecedor.xaml
+
+[C:/Users/Aluno/financeiro/lupafinance/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = lupafinance.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/Aluno/Desktop/financeiro-main/lupafinance/Resources/Styles/Colors.xaml]
+[C:/Users/Aluno/financeiro/lupafinance/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = lupafinance.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/Aluno/Desktop/financeiro-main/lupafinance/Resources/Styles/Styles.xaml]
+[C:/Users/Aluno/financeiro/lupafinance/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = lupafinance.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

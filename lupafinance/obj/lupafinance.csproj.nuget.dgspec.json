@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aluno\\Desktop\\financeiro-main\\lupafinance\\lupafinance.csproj": {}
+    "C:\\Users\\Aluno\\financeiro\\lupafinance\\lupafinance.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aluno\\Desktop\\financeiro-main\\lupafinance\\lupafinance.csproj": {
+    "C:\\Users\\Aluno\\financeiro\\lupafinance\\lupafinance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aluno\\Desktop\\financeiro-main\\lupafinance\\lupafinance.csproj",
+        "projectUniqueName": "C:\\Users\\Aluno\\financeiro\\lupafinance\\lupafinance.csproj",
         "projectName": "lupafinance",
-        "projectPath": "C:\\Users\\Aluno\\Desktop\\financeiro-main\\lupafinance\\lupafinance.csproj",
+        "projectPath": "C:\\Users\\Aluno\\financeiro\\lupafinance\\lupafinance.csproj",
         "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aluno\\Desktop\\financeiro-main\\lupafinance\\obj\\",
+        "outputPath": "C:\\Users\\Aluno\\financeiro\\lupafinance\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
