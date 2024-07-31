@@ -46,6 +46,24 @@ build_metadata.AdditionalFiles.ManifestResourceName = lupafinance.Editarforneced
 build_metadata.AdditionalFiles.TargetPath = Editarfornecedor.xaml
 build_metadata.AdditionalFiles.RelativePath = Editarfornecedor.xaml
 
+[C:/Users/Aluno/financeiro/lupafinance/EditarMateriais.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = lupafinance.EditarMateriais.xaml
+build_metadata.AdditionalFiles.TargetPath = EditarMateriais.xaml
+build_metadata.AdditionalFiles.RelativePath = EditarMateriais.xaml
+
+[C:/Users/Aluno/financeiro/lupafinance/GerenciaFornecedor.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = lupafinance.GerenciaFornecedor.xaml
+build_metadata.AdditionalFiles.TargetPath = GerenciaFornecedor.xaml
+build_metadata.AdditionalFiles.RelativePath = GerenciaFornecedor.xaml
+
+[C:/Users/Aluno/financeiro/lupafinance/GerenciaMateriais.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = lupafinance.GerenciaMateriais.xaml
+build_metadata.AdditionalFiles.TargetPath = GerenciaMateriais.xaml
+build_metadata.AdditionalFiles.RelativePath = GerenciaMateriais.xaml
+
 [C:/Users/Aluno/financeiro/lupafinance/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = lupafinance.MainPage.xaml

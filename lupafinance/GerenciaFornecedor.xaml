@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="lupafinance.GerenciaFornecedor"
+             BackgroundColor="#D8D8EB">
+
+    <Grid Padding="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Top Section with Title and Image -->
+        <StackLayout Grid.Row="0" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+            <Image Source="icon.png" HeightRequest="50" WidthRequest="50"/>
+            <Label Text="GERENCIAMENTO DO FORNECEDOR" FontSize="Large" VerticalOptions="Center"/>
+        </StackLayout>
+
+        <!-- Left Menu Buttons -->
+        <StackLayout Grid.Row="1" Grid.Column="0" Spacing="10">
+            <Button Text="Gerenciamento do fornecedor"/>
+            <Button Text="Gerenciamento de Materiais"/>
+            <Button Text="Gerenciamento de Estoque"/>
+            <Button Text="Gerenciamento de Gastos"/>
+        </StackLayout>
+
+        <!-- Main Content Area -->
+        <StackLayout Grid.Row="1" Grid.Column="1" BackgroundColor="Gray" Padding="20" VerticalOptions="Center">
+            <Label Text="Gerenciamento do Fornecedor" FontSize="Medium" TextColor="White"/>
+            <Label Text="Estoque mínimo" FontSize="Small" TextColor="White"/>
+            <Button Text="Salvar" BackgroundColor="LightGray" TextColor="Black"/>
+        </StackLayout>
+
+        <!-- Bottom Navigation Buttons -->
+        <StackLayout Grid.Row="2" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalOptions="Center" Spacing="20">
+            <Button Text="Voltar" BackgroundColor="LightGray" TextColor="Black"/>
+            <Button Text="Continuar" BackgroundColor="Black" TextColor="White"/>
+        </StackLayout>
+    </Grid>
+
+</ContentPage>

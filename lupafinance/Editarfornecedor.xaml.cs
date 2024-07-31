@@ -3,9 +3,9 @@ using Microsoft.Maui.Controls;
 
 namespace lupafinance
 {
-    public partial class EditarGerenciamentoDeFornecedor : ContentPage
+    public partial class Editarfornecedor : ContentPage
     {
-        public EditarGerenciamentoDeFornecedor()
+        public Editarfornecedor()
         {
             InitializeComponent();
         }

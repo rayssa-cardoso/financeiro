@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="lupafinance.EditarMateriais"
+             BackgroundColor="#D8D8EB">
+
+    <Grid Padding="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Top Section with Title -->
+        <Label Grid.Row="0"
+               Text="EDITAR GERENCIAMENTO DE MATERIAIS"
+               FontSize="Large"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               Margin="0,10,0,10"/>
+
+        <!-- Main Content Area with Buttons -->
+        <StackLayout Grid.Row="1" Spacing="20" HorizontalOptions="Center" VerticalOptions="Center">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button Text="EDITAR QUANTIDADE DE LINHAS" BackgroundColor="White" TextColor="Black"/>
+                <Image Source="edit.png" HeightRequest="25" WidthRequest="25" VerticalOptions="Center" Margin="10,0"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button Text="EDITAR QUANTIDADE DE TECIDO" BackgroundColor="White" TextColor="Black"/>
+                <Image Source="edit.png" HeightRequest="25" WidthRequest="25" VerticalOptions="Center" Margin="10,0"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button Text="EDITAR QUANTIDADE DE PRODUTOS" BackgroundColor="White" TextColor="Black"/>
+                <Image Source="edit.png" HeightRequest="25" WidthRequest="25" VerticalOptions="Center" Margin="10,0"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button Text="EDITAR QUANTIDADE DE TINTAS" BackgroundColor="White" TextColor="Black"/>
+                <Image Source="edit.png" HeightRequest="25" WidthRequest="25" VerticalOptions="Center" Margin="10,0"/>
+            </StackLayout>
+        </StackLayout>
+
+        <!-- Bottom Navigation Buttons -->
+        <StackLayout Grid.Row="2" Orientation="Horizontal" HorizontalOptions="Center" Spacing="20">
+            <Button Text="Voltar" BackgroundColor="LightGray" TextColor="Black"/>
+            <Image Source="trash.png" HeightRequest="50" WidthRequest="50" VerticalOptions="Center"/>
+        </StackLayout>
+    </Grid>
+
+</ContentPage>
