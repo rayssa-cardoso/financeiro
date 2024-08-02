@@ -54,6 +54,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = lupafinance.GerenciaFornec
 build_metadata.AdditionalFiles.TargetPath = GerenciaFornecedor.xaml
 build_metadata.AdditionalFiles.RelativePath = GerenciaFornecedor.xaml
 
+[C:/Users/Aluno/financeiro/lupafinance/GerenciaGastos.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = lupafinance.GerenciaGastos.xaml
+build_metadata.AdditionalFiles.TargetPath = GerenciaGastos.xaml
+build_metadata.AdditionalFiles.RelativePath = GerenciaGastos.xaml
+
 [C:/Users/Aluno/financeiro/lupafinance/GerenciaMateriais.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = lupafinance.GerenciaMateriais.xaml

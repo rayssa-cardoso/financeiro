@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="lupafinance.GerenciamentoDeGastos"
+             BackgroundColor="#D6CDEA"
+             Title="Gerenciamento de Gastos">
+
+    <StackLayout Padding="20">
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="5*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Imagens de pessoas e maleta -->
+            <Image Grid.Row="0" Grid.Column="0" Source="person_image.png" Aspect="AspectFit"/>
+            <Image Grid.Row="0" Grid.Column="1" Source="suitcase_image.png" Aspect="AspectFit"/>
+
+            <!-- Título -->
+            <Label Grid.Row="0" Grid.ColumnSpan="2" Text="GERENCIAMENTO DE GASTOS" FontSize="24" HorizontalOptions="Center" VerticalOptions="Center" />
+
+            <!-- Nome -->
+            <Entry Grid.Row="1"
