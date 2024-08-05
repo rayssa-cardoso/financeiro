@@ -2,9 +2,9 @@ using Microsoft.Maui.Controls;
 
 namespace lupafinance 
 {
-    public partial class GerenciamentoDeGastosPage : ContentPage
+    public partial class GerenciaGastos : ContentPage
     {
-        public GerenciamentoDeGastosPage()
+        public GerenciaGastos()
         {
             InitializeComponent();
         }

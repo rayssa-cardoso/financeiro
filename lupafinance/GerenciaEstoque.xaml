@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="lupafinance.GerenciaEstoque"
+             BackgroundColor="#d8d8eb">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20">
+            <Frame BackgroundColor="#d8d8eb" CornerRadius="20" Padding="0">
+                <StackLayout Padding="10">
+                    <HorizontalStackLayout HorizontalOptions="Center">
+                        <Image Source="businessman.png" HeightRequest="100" />
+                        <Image Source="businesswoman.png" HeightRequest="100" />
+                    </HorizontalStackLayout>
+
+                    <Label Text="GERENCIAMENTO DE ESTOQUE"
+                           HorizontalOptions="Center"
+                           FontSize="Large"
+                           FontAttributes="Bold"
+                           Margin="0,10,0,20" />
+
+                    <Entry Placeholder="Nome"
+                           HorizontalOptions="FillAndExpand"
+                           Margin="0,0,0,20" />
+
+                    <Frame BackgroundColor="#ffffff" CornerRadius="10" Padding="10">
+                        <VerticalStackLayout>
+                            <Button Text="PRODUTO" HorizontalOptions="FillAndExpand" Margin="0,5" />
+                            <Button Text="LINHAS" HorizontalOptions="FillAndExpand" Margin="0,5" />
+                            <Button Text="TECIDO" HorizontalOptions="FillAndExpand" Margin="0,5" />
+                            <Button Text="TINTAS" HorizontalOptions="FillAndExpand" Margin="0,5" />
+                            <Button Text="MATERIAIS" HorizontalOptions="FillAndExpand" Margin="0,5" />
+                        </VerticalStackLayout>
+                    </Frame>
+
+                    <Label Text="EDITAR MATERIAIS"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"
+                           FontAttributes="Bold"
+                           Margin="0,20,0,20" />
+
+                    <HorizontalStackLayout HorizontalOptions="Center">
+                        <Button Text="Voltar"
+                                BackgroundColor="#e0e0e0"
+                                Margin="0,0,10,0" />
+                        <Button Text="Continuar"
+                                BackgroundColor="#000000"
+                                TextColor="#ffffff"
+                                Margin="0,0,0,0" />
+                    </HorizontalStackLayout>
+                </StackLayout>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

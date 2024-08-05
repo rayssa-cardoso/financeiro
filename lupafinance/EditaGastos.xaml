@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="lupafinance.EditaGastos"
+             BackgroundColor="#d8d8eb">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20">
+            <Frame BackgroundColor="#d8d8eb" CornerRadius="20" Padding="0">
+                <StackLayout Padding="10">
+                    <Label Text="EDITAR GERENCIAMENTO DE GASTOS"
+                           HorizontalOptions="Center"
+                           FontSize="Large"
+                           FontAttributes="Bold" />
+
+                    <Button Text="EDITAR CUSTO R$ XX,XX"
+                            HorizontalOptions="FillAndExpand"
+                            BackgroundColor="#e0e0e0"
+                            Margin="0,10,0,0" />
+                    <Image Source="edit_icon.png"
+                           HorizontalOptions="End"
+                           VerticalOptions="Center" />
+
+                    <Button Text="EDITAR GANHO XXX, XXX,XXX"
+                            HorizontalOptions="FillAndExpand"
+                            BackgroundColor="#e0e0e0"
+                            Margin="0,10,0,0" />
+                    <Image Source="edit_icon.png"
+                           HorizontalOptions="End"
+                           VerticalOptions="Center" />
+
+                    <Button Text="EDITAR LUCRO XXX,XXX"
+                            HorizontalOptions="FillAndExpand"
+                            BackgroundColor="#e0e0e0"
+                            Margin="0,10,0,0" />
+                    <Image Source="edit_icon.png"
+                           HorizontalOptions="End"
+                           VerticalOptions="Center" />
+
+                    <Button Text="EDITAR PERDAS XX,XX"
+                            HorizontalOptions="FillAndExpand"
+                            BackgroundColor="#e0e0e0"
+                            Margin="0,10,0,0" />
+                    <Image Source="edit_icon.png"
+                           HorizontalOptions="End"
+                           VerticalOptions="Center" />
+
+                    <Button Text="EDITAR DESPESAS XX,XX"
+                            HorizontalOptions="FillAndExpand"
+                            BackgroundColor="#e0e0e0"
+                            Margin="0,10,0,0" />
+                    <Image Source="edit_icon.png"
+                           HorizontalOptions="End"
+                           VerticalOptions="Center" />
+
+                    <Button Text="Voltar"
+                            HorizontalOptions="Center"
+                            BackgroundColor="#e0e0e0"
+                            Margin="0,20,0,0" />
+                </StackLayout>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

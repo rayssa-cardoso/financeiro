@@ -40,6 +40,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = lupafinance.CadastrodoForn
 build_metadata.AdditionalFiles.TargetPath = CadastrodoFornecedor.xaml
 build_metadata.AdditionalFiles.RelativePath = CadastrodoFornecedor.xaml
 
+[C:/Users/Aluno/financeiro/lupafinance/EditaEstoque.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = lupafinance.EditaEstoque.xaml
+build_metadata.AdditionalFiles.TargetPath = EditaEstoque.xaml
+build_metadata.AdditionalFiles.RelativePath = EditaEstoque.xaml
+
+[C:/Users/Aluno/financeiro/lupafinance/EditaGastos.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = lupafinance.EditaGastos.xaml
+build_metadata.AdditionalFiles.TargetPath = EditaGastos.xaml
+build_metadata.AdditionalFiles.RelativePath = EditaGastos.xaml
+
 [C:/Users/Aluno/financeiro/lupafinance/Editarfornecedor.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = lupafinance.Editarfornecedor.xaml
@@ -51,6 +63,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = lupafinance.EditarMateriais.xaml
 build_metadata.AdditionalFiles.TargetPath = EditarMateriais.xaml
 build_metadata.AdditionalFiles.RelativePath = EditarMateriais.xaml
+
+[C:/Users/Aluno/financeiro/lupafinance/GerenciaEstoque.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = lupafinance.GerenciaEstoque.xaml
+build_metadata.AdditionalFiles.TargetPath = GerenciaEstoque.xaml
+build_metadata.AdditionalFiles.RelativePath = GerenciaEstoque.xaml
 
 [C:/Users/Aluno/financeiro/lupafinance/GerenciaFornecedor.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
