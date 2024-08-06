@@ -43,4 +43,9 @@
 
         <!-- Bottom Navigation Buttons -->
         <StackLayout Grid.Row="2" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalOptions="Center" Spacing="20">
-            <Button Text="Voltar" BackgroundColor="LightGray" Text
+            <Button Text="Voltar" BackgroundColor="LightGray"/>
+        </Grid>
+        
+        </StackLayout>
+            
+</ContentPage>

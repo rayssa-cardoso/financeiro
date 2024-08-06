@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="lupafinance.GerenciaGastos"
              BackgroundColor="#D6CDEA"
-             Title="Gerenciamento de Gastos">
+             Title="GerenciaGastos">
 
     <StackLayout Padding="20">
 
@@ -19,7 +19,7 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-
+        
             <!-- Imagens de pessoas e maleta -->
             <Image Grid.Row="0" Grid.Column="0" Source="person_image.png" Aspect="AspectFit"/>
             <Image Grid.Row="0" Grid.Column="1" Source="suitcase_image.png" Aspect="AspectFit"/>
@@ -28,4 +28,11 @@
             <Label Grid.Row="0" Grid.ColumnSpan="2" Text="GERENCIAMENTO DE GASTOS" FontSize="24" HorizontalOptions="Center" VerticalOptions="Center" />
 
             <!-- Nome -->
-            <Entry Grid.Row="1"
+            <Entry Grid.Row="1">
+            </Entry>
+    
+        </Grid>
+
+    </StackLayout>
+
+</ContentPage>
