@@ -3,11 +3,10 @@ public class Cliente
     string nome;
     Int64 id;
     string email;
-    int id;
     string Telefone;
     string CPF;
 
-    public void SeteNome(string nome)
+    public void SetNome(string nome)
     {
         this.nome = nome ;
     }
@@ -17,8 +16,14 @@ public class Cliente
     }
     
     public void Setemail(string email);
-     
+    {
+        this.email = email ;
+    } 
 
+    public string Getemail();
+    {
+        return email;
+    }
 
 
 

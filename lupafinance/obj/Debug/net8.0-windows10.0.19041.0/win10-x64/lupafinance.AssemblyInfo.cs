@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lupafinance")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+bf6d6a623bc002a1be04aafc9f42cb2acfae1553")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d5724908b766880566fa43922a9c75b0afdb5cac")]
 [assembly: System.Reflection.AssemblyProductAttribute("lupafinance")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lupafinance")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
