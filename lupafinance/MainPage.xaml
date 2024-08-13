@@ -1,41 +1,98 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Shell.NavBarIsVisible="False"
              x:Class="lupafinance.MainPage">
 
-    <ScrollView>
-        <VerticalStackLayout
-            Spacing="25"
-            Padding="30,0"
-            VerticalOptions="Center">
+    <Grid BackgroundColor="#D0CDE1" Padding="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
 
-            <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
-                HorizontalOptions="Center" />
+        <Frame Grid.Row="0" 
+               BackgroundColor="White" 
+               CornerRadius="10" 
+               Padding="10" 
+               Margin="0,0,0,20"
+               HasShadow="True">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <Label Text="TELA INICIAL" 
+                       FontSize="Large" 
+                       HorizontalOptions="Center" 
+                       VerticalOptions="Center" 
+                       FontAttributes="Bold" />
+                <!-- Adicione a imagem do ícone de prédio ao lado, se necessário -->
+            </StackLayout>
+        </Frame>
 
-            <Label
-                Text="Hello, World!"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
-                HorizontalOptions="Center" />
+        <StackLayout Grid.Row="1" Spacing="10">
+            <!-- Tela de Cadastro -->
+            <Frame BackgroundColor="White" CornerRadius="10" HasShadow="True">
+                <StackLayout Orientation="Horizontal" Padding="10">
+                    <Image Source="icon_user.png" WidthRequest="30" HeightRequest="30"/>
+                    <Label Text="TELA DE CADASTRO" 
+                           FontSize="Medium" 
+                           VerticalOptions="Center" 
+                           Margin="10,0,0,0" />
+                </StackLayout>
+            </Frame>
 
-            <Label
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
-                HorizontalOptions="Center" />
+            <!-- Tela de Fornecedor -->
+            <Frame BackgroundColor="White" CornerRadius="10" HasShadow="True">
+                <StackLayout Orientation="Horizontal" Padding="10">
+                    <Image Source="icon_supplier.png" WidthRequest="30" HeightRequest="30"/>
+                    <Label Text="TELA DE FORNECEDOR" 
+                           FontSize="Medium" 
+                           VerticalOptions="Center" 
+                           Margin="10,0,0,0" />
+                </StackLayout>
+            </Frame>
 
-            <Button
-                x:Name="CounterBtn"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />
+            <!-- Gerenciamento de Fornecedor -->
+            <Frame BackgroundColor="White" CornerRadius="10" HasShadow="True">
+                <StackLayout Orientation="Horizontal" Padding="10">
+                    <Image Source="icon_management.png" WidthRequest="30" HeightRequest="30"/>
+                    <Label Text="GERENCIAMENTO DO FORNECEDOR" 
+                           FontSize="Medium" 
+                           VerticalOptions="Center" 
+                           Margin="10,0,0,0" />
+                </StackLayout>
+            </Frame>
 
-        </VerticalStackLayout>
-    </ScrollView>
+            <!-- Gerenciamento de Materiais -->
+            <Frame BackgroundColor="White" CornerRadius="10" HasShadow="True">
+                <StackLayout Orientation="Horizontal" Padding="10">
+                    <Image Source="icon_materials.png" WidthRequest="30" HeightRequest="30"/>
+                    <Label Text="GERENCIAMENTO DE MATERIAIS" 
+                           FontSize="Medium" 
+                           VerticalOptions="Center" 
+                           Margin="10,0,0,0" />
+                </StackLayout>
+            </Frame>
 
+            <!-- Gerenciamento de Gastos -->
+            <Frame BackgroundColor="White" CornerRadius="10" HasShadow="True">
+                <StackLayout Orientation="Horizontal" Padding="10">
+                    <Image Source="icon_expenses.png" WidthRequest="30" HeightRequest="30"/>
+                    <Label Text="GERENCIAMENTO DE GASTOS" 
+                           FontSize="Medium" 
+                           VerticalOptions="Center" 
+                           Margin="10,0,0,0" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Gerenciamento de Estoque -->
+            <Frame BackgroundColor="White" CornerRadius="10" HasShadow="True">
+                <StackLayout Orientation="Horizontal" Padding="10">
+                    <Image Source="icon_inventory.png" WidthRequest="30" HeightRequest="30"/>
+                    <Label Text="GERENCIAMENTO DE ESTOQUE" 
+                           FontSize="Medium" 
+                           VerticalOptions="Center" 
+                           Margin="10,0,0,0" />
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </Grid>
 </ContentPage>
+

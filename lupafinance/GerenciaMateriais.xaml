@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="lupafinance.GerenciaMateriais"
+             Shell.NavBarIsVisible="False"
              BackgroundColor="#D8D8EB">
 
     <Grid Padding="10">
@@ -44,8 +45,8 @@
         <!-- Bottom Navigation Buttons -->
         <StackLayout Grid.Row="2" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalOptions="Center" Spacing="20">
             <Button Text="Voltar" BackgroundColor="LightGray"/>
-        </Grid>
         
         </StackLayout>
+        </Grid>
             
 </ContentPage>

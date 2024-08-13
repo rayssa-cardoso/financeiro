@@ -1,3 +1,5 @@
+namespace lupafinance;
+
 public class Cliente 
 { 
     string nome;
@@ -15,23 +17,15 @@ public class Cliente
         return nome;
     }
     
-    public void Setemail(string email);
+    public void Setemail(string email)
     {
         this.email = email ;
     } 
 
-    public string Getemail();
+    public string Getemail()
     {
         return email;
     }
-
-
-
-
-
-
-
-
 
 
 }
