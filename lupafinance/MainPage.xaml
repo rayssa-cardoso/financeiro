@@ -35,6 +35,13 @@
                            FontSize="Medium" 
                            VerticalOptions="Center" 
                            Margin="10,0,0,0" />
+
+                <Button Text="BTELACADASTRO"
+                BackgroundColor="#555555"
+                TextColor="White"
+                HorizontalOptions="FillAndExpand"
+                Clicked="OnTelaCadastroClicked"/>
+               
                 </StackLayout>
             </Frame>
 
@@ -46,6 +53,13 @@
                            FontSize="Medium" 
                            VerticalOptions="Center" 
                            Margin="10,0,0,0" />
+                
+                <Button Text="BGERENCIAMATERIAIS"
+                BackgroundColor="#555555"
+                TextColor="White"
+                HorizontalOptions="FillAndExpand"
+                Clicked="OnTelaFornecedorClicked"/>
+               
                 </StackLayout>
             </Frame>
 
@@ -56,7 +70,15 @@
                     <Label Text="GERENCIAMENTO DO FORNECEDOR" 
                            FontSize="Medium" 
                            VerticalOptions="Center" 
-                           Margin="10,0,0,0" />
+                           Margin="10,0,0,0" /> 
+                           
+               <Button Text="BGERENCIAFORNECEDOR"
+                BackgroundColor="#555555"
+                TextColor="White"
+                HorizontalOptions="FillAndExpand"
+                Clicked="OnGerenciaFornecedorClicked"/>
+               
+                           
                 </StackLayout>
             </Frame>
 
@@ -68,6 +90,13 @@
                            FontSize="Medium" 
                            VerticalOptions="Center" 
                            Margin="10,0,0,0" />
+
+                <Button Text="BGERENCIAMATERIAIS"
+                BackgroundColor="#555555"
+                TextColor="White"
+                HorizontalOptions="FillAndExpand"
+                Clicked="OnGerenciaMateriaisClicked"/>
+               
                 </StackLayout>
             </Frame>
 
@@ -79,6 +108,15 @@
                            FontSize="Medium" 
                            VerticalOptions="Center" 
                            Margin="10,0,0,0" />
+
+                <Button Text="BGERENCIAGASTOS"
+                BackgroundColor="#555555"
+                TextColor="White"
+                HorizontalOptions="FillAndExpand"
+                Clicked="OnGerenciaGastosClicked"/>
+               
+            
+            
                 </StackLayout>
             </Frame>
 
@@ -90,6 +128,13 @@
                            FontSize="Medium" 
                            VerticalOptions="Center" 
                            Margin="10,0,0,0" />
+
+                <Button Text="BGERENCIAESTOQUE"
+                BackgroundColor="#555555"
+                TextColor="White"
+                HorizontalOptions="FillAndExpand"
+                Clicked="OnGerenciaEstoqueClicked"/>
+               
                 </StackLayout>
             </Frame>
         </StackLayout>

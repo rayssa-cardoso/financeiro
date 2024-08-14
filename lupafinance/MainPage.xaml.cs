@@ -8,7 +8,21 @@ namespace lupafinance
         {
             InitializeComponent();
         }
+
+
+        private void OnTelaCadastroClicked(object sender, EventArgs e)
+        {
+            if (Application.Current != null)
+                Application.Current.MainPage = new CadastroCliente();
+        }
+
+
     }
+
+
+
 }
+
+
 
 
