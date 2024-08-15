@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="lupafinance.Telacliente"
+             BackgroundColor="#D7CFEA">
+    <ContentPage.Content>
+        <VerticalStackLayout Padding="20" Spacing="10">
+            <!-- Header -->
+            <Frame BackgroundColor="#D7CFEA" CornerRadius="20" Padding="15">
+                <Label Text="TELA DO CLIENTE"
+                       FontSize="24"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center" />
+            </Frame>
+
+            <!-- Formulário -->
+            <VerticalStackLayout Spacing="10">
+                <Label Text="NOME COMPLETO" />
+                <Entry x:Name="NomeCompletoEntry" Placeholder="Nome Completo" />
+
+                <HorizontalStackLayout Spacing="10">
+                    <VerticalStackLayout WidthRequest="160">
+                        <Label Text="NUMERO DE CELULAR" />
+                        <Entry x:Name="CelularEntry" Placeholder="Número de Celular" />
+                    </VerticalStackLayout>
+                    <VerticalStackLayout WidthRequest="110">
+                        <Label Text="CPF" />
+                        <Entry x:Name="CpfEntry" Placeholder="CPF" />
+                    </VerticalStackLayout>
+                    <VerticalStackLayout WidthRequest="110">
+                        <Label Text="CNPJ" />
+                        <Entry x:Name="CnpjEntry" Placeholder="CNPJ" />
+                    </VerticalStackLayout>
+                </HorizontalStackLayout>
+
+                <Label Text="ENDEREÇO" />
+                <Entry x:Name="EnderecoEntry" Placeholder="Endereço" />
+
+                <HorizontalStackLayout Spacing="10">
+                    <VerticalStackLayout WidthRequest="160">
+                        <Label Text="CEP" />
+                        <Entry x:Name="CepEntry" Placeholder="CEP" />
+                    </VerticalStackLayout>
+                </HorizontalStackLayout>
+
+                <Label Text="EMAIL" />
+                <Entry x:Name="EmailEntry" Placeholder="Email" />
+
+                <Label Text="OUTRAS INFORMAÇÕES" />
+                <Editor x:Name="OutrasInfoEditor" HeightRequest="80" Placeholder="Outras Informações" />
+            </VerticalStackLayout>
+
+            <!-- Buttons -->
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="10" Margin="10">
+                <Button Text="Voltar à tela inicial" Clicked="OnBackClicked" />
+                <Button Text="cadastrar dados" BackgroundColor="Black" TextColor="White" Clicked="OnSaveClicked" />
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ContentPage.Content>
+</ContentPage>

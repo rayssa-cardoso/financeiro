@@ -24,6 +24,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = lupafinance.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[C:/Users/Aluno/financeiro/lupafinance/BuscaCliente.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = lupafinance.BuscaCliente.xaml
+build_metadata.AdditionalFiles.TargetPath = BuscaCliente.xaml
+build_metadata.AdditionalFiles.RelativePath = BuscaCliente.xaml
+
 [C:/Users/Aluno/financeiro/lupafinance/CadastroCliente.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = lupafinance.CadastroCliente.xaml
@@ -101,3 +107,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = lupafinance.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Aluno/financeiro/lupafinance/TelaCliente.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = lupafinance.TelaCliente.xaml
+build_metadata.AdditionalFiles.TargetPath = TelaCliente.xaml
+build_metadata.AdditionalFiles.RelativePath = TelaCliente.xaml

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="lupafinance.BuscaCliente"
+             BackgroundColor="#D7CFEA">
+    <ContentPage.Content>
+        <VerticalStackLayout Padding="20" Spacing="10">
+            <!-- Header -->
+            <Frame BackgroundColor="#D7CFEA" CornerRadius="20" Padding="15">
+                <Label Text="CLIENTES"
+                       FontSize="24"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center" />
+            </Frame>
+
+            <!-- Search Bar -->
+            <HorizontalStackLayout>
+                <Entry x:Name="SearchEntry" Placeholder="NOME DO CLIENTE" WidthRequest="250" />
+                <Button Text="🔍" WidthRequest="50" Clicked="OnSearchClicked" />
+                <Button Text="+" WidthRequest="50" BackgroundColor="LightGreen" Clicked="OnAddClicked" />
+            </HorizontalStackLayout>
+
+            <!-- Client List -->
+            <ScrollView>
+                <VerticalStackLayout Spacing="10">
+                    <!-- Exemplo de Item -->
+                    <Frame CornerRadius="10" Padding="10" BackgroundColor="White">
+                        <HorizontalStackLayout>
+                            <Label Text="DAVY CAMACHO MATIAS"
+                                   VerticalOptions="Center" />
+                            <Button Text="🗑" HorizontalOptions="EndAndExpand" BackgroundColor="Transparent" Clicked="OnDeleteClicked" />
+                        </HorizontalStackLayout>
+                    </Frame>
+
+                    <!-- Repetir para outros itens -->
+                    <!-- Mais Frames para outros clientes -->
+                </VerticalStackLayout>
+            </ScrollView>
+
+            <!-- Back Button -->
+            <Button Text="Voltar à tela inicial" Clicked="OnBackClicked" />
+        </VerticalStackLayout>
+    </ContentPage.Content>
+</ContentPage>

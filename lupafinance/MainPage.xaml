@@ -36,9 +36,9 @@
                            VerticalOptions="Center" 
                            Margin="10,0,0,0" />
 
-                <Button Text="BTELACADASTRO"
+                <Button Text="TELA CADASTRO"
                 BackgroundColor="#555555"
-                TextColor="White"
+                TextColor="black"
                 HorizontalOptions="FillAndExpand"
                 Clicked="OnTelaCadastroClicked"/>
                
@@ -54,9 +54,9 @@
                            VerticalOptions="Center" 
                            Margin="10,0,0,0" />
                 
-                <Button Text="BGERENCIAMATERIAIS"
+                <Button Text="GERENCIA MATERIAIS"
                 BackgroundColor="#555555"
-                TextColor="White"
+                TextColor="black"
                 HorizontalOptions="FillAndExpand"
                 Clicked="OnTelaFornecedorClicked"/>
                
@@ -72,9 +72,9 @@
                            VerticalOptions="Center" 
                            Margin="10,0,0,0" /> 
                            
-               <Button Text="BGERENCIAFORNECEDOR"
+               <Button Text="GERENCIA FORNECEDOR"
                 BackgroundColor="#555555"
-                TextColor="White"
+                TextColor="black"
                 HorizontalOptions="FillAndExpand"
                 Clicked="OnGerenciaFornecedorClicked"/>
                
@@ -91,9 +91,9 @@
                            VerticalOptions="Center" 
                            Margin="10,0,0,0" />
 
-                <Button Text="BGERENCIAMATERIAIS"
+                <Button Text="GERENCIA MATERIAIS"
                 BackgroundColor="#555555"
-                TextColor="White"
+                TextColor="black"
                 HorizontalOptions="FillAndExpand"
                 Clicked="OnGerenciaMateriaisClicked"/>
                
@@ -109,9 +109,9 @@
                            VerticalOptions="Center" 
                            Margin="10,0,0,0" />
 
-                <Button Text="BGERENCIAGASTOS"
+                <Button Text="GERENCIA GASTOS"
                 BackgroundColor="#555555"
-                TextColor="White"
+                TextColor="black"
                 HorizontalOptions="FillAndExpand"
                 Clicked="OnGerenciaGastosClicked"/>
                
@@ -129,7 +129,7 @@
                            VerticalOptions="Center" 
                            Margin="10,0,0,0" />
 
-                <Button Text="BGERENCIAESTOQUE"
+                <Button Text="GERENCIA ESTOQUE"
                 BackgroundColor="#555555"
                 TextColor="White"
                 HorizontalOptions="FillAndExpand"
