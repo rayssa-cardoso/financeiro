@@ -8,5 +8,10 @@ namespace lupafinance
         {
             InitializeComponent();
         }
+
+        private void OnVoltarButtom(object sender, EventArgs e)
+        {
+           Application.Current.MainPage = new MainPage();
+        }
     }
 }

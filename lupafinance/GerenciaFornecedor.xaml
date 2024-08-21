@@ -39,7 +39,7 @@
         </StackLayout>
 
         <!-- Bottom Navigation Buttons -->
-        <StackLayout Grid.Row="2" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalOptions="Center" Spacing="20">
+        <StackLayout Grid.Row="2" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalOptions="Center" Spacing="15">
             <Button Text="Voltar" BackgroundColor="LightGray" TextColor="Black"/>
             <Button Text="Continuar" BackgroundColor="Black" TextColor="White"/>
         </StackLayout>

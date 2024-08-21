@@ -6,37 +6,68 @@
              BackgroundColor="#d0cde1">
 
     <ScrollView>
-        <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Padding="20">
+        <StackLayout HorizontalOptions="Center"
+                VerticalOptions="Center">
 
             <!-- Logo and Title -->
-            <Image Source="logopredio.png" HorizontalOptions="Center" Margin="100,0" />
-            <Label Text="LUPA FINANCE" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" />
-            <Label Text="OLHANDO DE PERTO, GERINDO DE LONGE" FontSize="14" HorizontalOptions="Center" />
+            <Image Source="logopredio.png"
+                    HorizontalOptions="Center"
+                    Margin="100,0"
+                    HeightRequest="200"/>
+            <Label Text="LUPA FINANCE"
+                    FontSize="24"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center"/>
+            <Label Text="OLHANDO DE PERTO, GERINDO DE LONGE"
+                    FontSize="14"
+                    HorizontalOptions="Center"/>
 
             <!-- Cadastro Label -->
-            <Label Text="CADASTRO" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center" Margin="0,20,0,20" />
+            <Label Text="CADASTRO"
+                    FontSize="20"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center"
+                    Margin="0,20,0,20"/>
 
             <!-- Email Entry -->
-            <Entry x:Name="emailEntry" Placeholder="Email" Keyboard="Email" TextColor="Black" BackgroundColor="AliceBlue"/>
+            <Entry x:Name="emailEntry"
+                    Placeholder="Email"
+                    Keyboard="Email"
+                    TextColor="Black"
+                    BackgroundColor="AliceBlue"
+                    Margin="40,0"/>
 
             <!-- Password Entry -->
-            <Entry x:Name="passwordEntry" Placeholder="Senha" IsPassword="True" TextColor="Black" BackgroundColor="AliceBlue"/>
+            <Entry x:Name="passwordEntry"
+                    Placeholder="Senha"
+                    IsPassword="True"
+                    TextColor="Black"
+                    BackgroundColor="AliceBlue"
+                    Margin="40,5"/>
 
             <!-- Esqueceu Senha and Já possuo Conta buttons -->
-            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="20">
-                <Button Text="Esqueceu senha" TextColor="White" BackgroundColor="Black" Margin="0,20,0,0"/>
-                <Button Text="Já possuo Conta" TextColor="White" BackgroundColor="Black" Margin="0,20,0,0"/>
+            <StackLayout Orientation="Horizontal"
+                    HorizontalOptions="Center"
+>
+                <Button Text="Esqueceu senha"
+                        TextColor="White"
+                        BackgroundColor="Black"
+                        Margin="0,20,10,0"/>
+                <Button Text="Cadastrar-se"
+                        TextColor="White"
+                        BackgroundColor="Black"
+                        Margin="5,20,0,0"/>
             </StackLayout>
 
             <!-- Cadastrar-se Button -->
-            <Button Text="Cadastrar-se" TextColor="Black" BackgroundColor="White" Margin="0,20,0,0"/>
+            <Button Text="Voltar"
+                    TextColor="Black"
+                    BackgroundColor="White"
+                    Margin="150,20,150,0"
+                    Clicked="OnVoltarButtom"/>
 
-            <!-- Social Login Buttons -->
-            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="20" Margin="0,20,0,0">
-                <Button Text="Faça login com o Google" TextColor="Black" BackgroundColor="White" />
-                <Button Text="Faça login pelo Facebook" TextColor="Black" BackgroundColor="White" />
             </StackLayout>
 
-        </StackLayout>
+        
     </ScrollView>
 </ContentPage>
